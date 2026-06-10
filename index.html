@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>1133839 黃楨雅_期末作品報告_網頁作品</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <header class="site-header">
+  <a href="#home" class="logo">JANICE'S PORTFOLIO</a>
+
+  <input type="checkbox" id="menu-toggle">
+
+  <label for="menu-toggle" class="hamburger" aria-label="開啟選單">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <nav class="menu">
+    <a href="#home">首頁</a>
+    <a href="#works">作品集</a>
+    <a href="#video">影片區</a>
+    <a href="#about">關於我</a>
+    <a href="#contact">聯絡我</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="orbit-area">
+
+    <div class="orbit orbit-1">
+      <div class="orbit-spin">
+        <a href="#window" class="planet planet-1 orbit-jump">
+          <span class="planet-label">
+            <span class="label-text label-normal">鐵窗花</span>
+            <span class="label-text label-flip">鐵窗花</span>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="orbit orbit-2">
+      <div class="orbit-spin">
+        <a href="#flower" class="planet planet-2 orbit-jump">
+          <span class="planet-label">
+            <span class="label-text label-normal">花影生長</span>
+            <span class="label-text label-flip">花影生長</span>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="orbit orbit-3">
+      <div class="orbit-spin">
+        <a href="#campus" class="planet planet-3 orbit-jump">
+          <span class="planet-label">
+            <span class="label-text label-normal">嘉大光影</span>
+            <span class="label-text label-flip">嘉大光影</span>
+          </span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="hero-text">
+    <p class="small-title">Photography Collection</p>
+    <h1>MY PORTFOLIO</h1>
+    <p class="subtitle">捕捉日常光影裡，被忽略的城市紋理與柔和片刻。</p>
+  </div>
+</section>
+
+<section id="works" class="section works-section">
+  <p class="section-label">Gallery</p>
+  <h2>攝影作品集</h2>
+  <p class="section-intro">
+    以校園、花朵與鐵窗花作為三個系列，記錄光影、線條與情緒。
+  </p>
+
+  <div class="collection-grid">
+
+    <article id="campus" class="collection-card collection-target open-album" data-album="campus" tabindex="0">
+      <div class="album-cover">
+        <span class="cover-number">01</span>
+      </div>
+      <div class="card-text">
+        <h3>嘉大黑白光影紀事</h3>
+        <p>以黑白影像記錄嘉大校園中的小動物們。</p>
+      </div>
+    </article>
+
+    <article id="flower" class="collection-card collection-target open-album" data-album="flower" tabindex="0">
+      <div class="album-cover">
+        <span class="cover-number">02</span>
+      </div>
+      <div class="card-text">
+        <h3>花影生長</h3>
+        <p>透過花朵、人物與柔和光線，呈現美感在感官中生長的狀態。</p>
+      </div>
+    </article>
+
+    <article id="window" class="collection-card collection-target open-album" data-album="window" tabindex="0">
+      <div class="album-cover">
+        <span class="cover-number">03</span>
+      </div>
+      <div class="card-text">
+        <h3>鐵窗花綻放</h3>
+        <p>透過老屋窗戶上的線條、鏽痕、光影與生活物件，呈現台灣街道中被保留下來的日常記憶。</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<dialog id="album-modal" class="album-modal">
+  <div class="modal-inner">
+
+    <button type="button" class="modal-close" aria-label="關閉視窗">×</button>
+
+    <p class="modal-label">Photo Album</p>
+    <h3 id="modal-title">攝影集名稱</h3>
+
+    <div class="slider">
+      <button type="button" class="slider-btn prev-btn" aria-label="上一張">‹</button>
+
+      <div class="slider-viewport">
+        <div id="slide-track" class="slide-track">
+          <img class="slide-img" src="" alt="攝影作品">
+          <img class="slide-img" src="" alt="攝影作品">
+        </div>
+      </div>
+
+      <button type="button" class="slider-btn next-btn" aria-label="下一張">›</button>
+    </div>
+
+    <p id="modal-caption" class="modal-caption"></p>
+
+    <div id="modal-dots" class="modal-dots"></div>
+
+  </div>
+</dialog>
+
+<section id="video" class="section video-section">
+  <p class="section-label">Video Project</p>
+  <h2>嘉大數位系宣傳影片</h2>
+  <p class="video-desc">
+  這部影片使用遊戲像素風格呈現，並透過第一人稱視角帶領觀眾「登入」嘉大數位系，在趣味的關卡冒險中解鎖「科技、設計、教育、管理」的跨領域核心能力！
+</p>
+
+  <div class="video-wrapper">
+    <iframe
+      src="https://www.youtube.com/embed/afXUg60ptQI?si=PlScW6vGP3Rf3VaF"
+      title="嘉大數位系宣傳影片"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<section id="about" class="section about-section">
+  <p class="section-label">About Me</p>
+  <h2>關於我</h2>
+  <p>
+    我是來自嘉義大學數位學習設計與管理學系的黃楨雅，這份作品集整理了我在校園、花朵與鐵窗花主題中的影像觀察。透過黑白光影、柔和色調與生活中的細節，我希望呈現那些容易被忽略，卻悄悄存在的美感。
+  </p>
+</section>
+
+<section id="contact" class="section contact-section">
+  <p class="section-label">Contact</p>
+  <h2>聯絡我</h2>
+  <p>Email：janice.h0103@gmail.com</p>
+  <p>Instagram：hch.yaa</p>
+</section>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
